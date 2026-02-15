@@ -1,12 +1,345 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursor</title>
-    <link rel="Stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cursor</title>
+  <link rel="Stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+  <header>
+    <nav class="nav">
+      <a href="/">
+        <img src="https://cursor.com/marketing-static/icon-192x192.png" alt="logo" />
+        CURSOR
+      </a>
+
+      <ul class="nav-links">
+        <li>Product</li>
+        <li>Enterprise</li>
+        <li>Pricing</li>
+        <li>Resources</li>
+      </ul>
+
+      <div class="nav-btn">
+        <button>Sign in</button>
+        <button>Download</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="hero">
+    <section class="hero-sec">
+      <h1>
+        Built to make you extraordinarily productive, Cursor is the best way
+        to code with AI.
+      </h1>
+      <button>Download for MacOS</button>
+    </section>
+
+    <section class="box1">
+      <img src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/misc/asset-cc24ca462279ca23250c.jpg"
+        alt="preview" />
+
+      <div class="box1-content">
+        <div class="topbar">
+          <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p>Cursor</p>
+          <p>Get Cursor …</p>
+        </div>
+
+        <div class="content-area">
+
+          <!-- LEFT SIDEBAR -->
+          <div class="sidebar">
+            <p class="sidebar-title">READY FOR REVIEW 6</p>
+
+            <ul class="task-list">
+              <li class="active">
+                <div>
+                  <p>Build Landing Page</p>
+                  <span>Done. Fonts preload in the head...</span>
+                </div>
+                <small>now</small>
+              </li>
+
+              <li>
+                <div>
+                  <p>Analyze Tab vs Agent</p>
+                  <span>All set! We now track focus...</span>
+                </div>
+                <small>now</small>
+              </li>
+
+              <li>
+                <div>
+                  <p>Plan Mission Control</p>
+                  <span><span class="green">+20</span> <span class="red">-3</span></span>
+                </div>
+                <small>now</small>
+              </li>
+
+              <li>
+                <div>
+                  <p>PyTorch MNIST Experiments</p>
+                </div>
+                <small>10m</small>
+              </li>
+
+              <li>
+                <div>
+                  <p>Bioinformatics Tools</p>
+                  <span><span class="green">+135</span> <span class="red">-21</span></span>
+                </div>
+                <small>45m</small>
+              </li>
+            </ul>
+          </div>
+
+          <!-- CENTER EDITOR -->
+          <div class="editor">
+            <h3>Build Landing Page</h3>
+
+            <div class="editor-box">
+              make a landing page based on attached docs explaining what we do
+            </div>
+
+            <div class="file-change">
+              <p>app/page.tsx <span class="green">+52</span> <span class="red">-0</span></p>
+            </div>
+
+            <div class="file-change">
+              <p>app/globals.css <span class="green">+18</span> <span class="red">-0</span></p>
+            </div>
+
+            <p class="editor-output">
+              Done. Fonts preload in the head, critical CSS is inline, and I added a color-scheme meta tag so dark mode
+              renders instantly without flash.
+            </p>
+
+            <div class="prompt-box">
+              <input placeholder="Plan, search, build anything..." />
+              <button>↑</button>
+            </div>
+          </div>
+
+          <!-- RIGHT PREVIEW -->
+          <div class="preview">
+            <div class="browser-bar">
+              <span>←</span>
+              <span>→</span>
+              <span>⟳</span>
+              <p>http://localhost:3000</p>
+            </div>
+
+            <div class="preview-content">
+              <h2>Acme Labs</h2>
+              <p>
+                Software creation is changing. We are a group of researchers,
+                engineers, and technologists inventing at the edge of what's useful and possible.
+              </p>
+
+              <button class="preview-btn">See projects</button>
+
+              <ul class="project-list">
+                <li><span>2026</span> Secure codebase indexing <span>Published</span></li>
+                <li><span>2026</span> Semantic search <span>Published</span></li>
+                <li><span>2025</span> Reinforcement learning <span>Published</span></li>
+                <li><span>2024</span> Multi-agent collaboration <span>Published</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- Trusted -->
+    <section class="trusted">
+      <h2>Trusted every day by teams that build world-class software</h2>
+
+      <div class="logo-grid">
+        <div class="logo-card">Stripe</div>
+        <div class="logo-card">OpenAI</div>
+        <div class="logo-card">Linear</div>
+        <div class="logo-card">Datadog</div>
+        <div class="logo-card">NVIDIA</div>
+        <div class="logo-card">Figma</div>
+        <div class="logo-card">Ramp</div>
+        <div class="logo-card">Adobe</div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h1>The new way to build software.</h1>
+
+      <div class="testimonial-grid">
+
+        <div class="testimonial-card">
+          <p>“It was night and day from one batch to another, adoption went from single digits to over 80%. It just
+            spread like wildfire.”</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/100?img=5">
+            <div class="author-info">
+              <h4>Diana Hu</h4>
+              <span>General Partner, Y Combinator</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>“My favorite enterprise AI service is Cursor. Every one of our engineers is now assisted by AI.”</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/100?img=12">
+            <div class="author-info">
+              <h4>Jensen Huang</h4>
+              <span>President & CEO, NVIDIA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>“The best LLM applications have an autonomy slider. In Cursor, you can control independence.”</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/100?img=8">
+            <div class="author-info">
+              <h4>Andrej Karpathy</h4>
+              <span>CEO, Eureka Labs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>“Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees.”</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/100?img=15">
+            <div class="author-info">
+              <h4>Patrick Collison</h4>
+              <span>Co-Founder & CEO, Stripe</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>“The most useful AI tool I currently pay for is Cursor. Everything is well put together.”</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/100?img=20">
+            <div class="author-info">
+              <h4>shadcn</h4>
+              <span>Creator of shadcn/ui</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p>“It's becoming more fun to be a programmer. Interactive experiences shine brightest.”</p>
+          <div class="author">
+            <img src="https://i.pravatar.cc/100?img=30">
+            <div class="author-info">
+              <h4>Greg Brockman</h4>
+              <span>President, OpenAI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- reasearch section -->
+    <section class="research-section">
+      <div class="research-card">
+
+        <div class="research-text">
+          <h2>
+            Cursor is an applied research team focused on building
+            the future of software development.
+          </h2>
+          <a href="#">Join us →</a>
+        </div>
+
+        <div class="research-image">
+          <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72" alt="">
+        </div>
+
+      </div>
+    </section>
+    <!-- CTA SECTION -->
+    <section class="cta-section">
+      <h1>Try Cursor now.</h1>
+      <a href="#" class="cta-button">Download for macOS ↓</a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+
+      <div class="footer-column">
+        <h4>Product</h4>
+        <ul>
+          <li>Agents</li>
+          <li>Enterprise</li>
+          <li>Code Review</li>
+          <li>Tab</li>
+          <li>CLI</li>
+          <li>Cloud Agents</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li>Download</li>
+          <li>Changelog</li>
+          <li>Docs</li>
+          <li>Forum</li>
+          <li>Status</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li>Careers</li>
+          <li>Blog</li>
+          <li>Community</li>
+          <li>Students</li>
+          <li>Brand</li>
+          <li>Anysphere</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li>Terms of Service</li>
+          <li>Privacy Policy</li>
+          <li>Data Use</li>
+          <li>Security</li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Connect</h4>
+        <ul>
+          <li>X</li>
+          <li>LinkedIn</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
 </body>
+
 </html>
